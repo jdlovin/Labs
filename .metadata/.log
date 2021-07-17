@@ -933,3 +933,273 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.resources 4 568 2021-07-17 13:14:13.641
+!MESSAGE Could not write metadata for '/.org.eclipse.egit.core.cmp'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\jdlov\OneDrive\Desktop\Revature\Labs\.metadata\.plugins\org.eclipse.core.resources\.projects\.org.eclipse.egit.core.cmp\.markers.snap (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:291)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:234)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:155)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:48)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:44)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1765)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1846)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1202)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 2 2 2021-07-17 13:14:31.208
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:48.455
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:48.456
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1a90d6da[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:48.458
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:48.485
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.296
+!MESSAGE Boot LS startup time from start to initialized: 1830ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.452
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.OdTHPrqFisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.455
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.457
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.458
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.458
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.458
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.OdTHPrqF => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.460
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.461
+!MESSAGE buffering callback sts4.classpath.OdTHPrqF Lab-Scanner false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.461
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.462
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.462
+!MESSAGE buffering callback sts4.classpath.OdTHPrqF CastingDatatypes false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.463
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.463
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.464
+!MESSAGE buffering callback sts4.classpath.OdTHPrqF HelloWorld false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.464
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.465
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.465
+!MESSAGE buffering callback sts4.classpath.OdTHPrqF Lab - Arrays false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.465
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.466
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.466
+!MESSAGE buffering callback sts4.classpath.OdTHPrqF Lab - ConditionalBlocks false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.467
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.467
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.468
+!MESSAGE buffering callback sts4.classpath.OdTHPrqF Lab - ConditionalStatements false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.468
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.469
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.469
+!MESSAGE buffering callback sts4.classpath.OdTHPrqF Lab - Do While false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.470
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.470
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.471
+!MESSAGE buffering callback sts4.classpath.OdTHPrqF Lab - MathematicalOperators false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.471
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.472
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.473
+!MESSAGE buffering callback sts4.classpath.OdTHPrqF Lab - Method false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.473
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.473
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.474
+!MESSAGE buffering callback sts4.classpath.OdTHPrqF Lab - MethodParameters false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.474
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.474
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.475
+!MESSAGE buffering callback sts4.classpath.OdTHPrqF Lab - MethodReturnType false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.475
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.476
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.476
+!MESSAGE buffering callback sts4.classpath.OdTHPrqF Lab - MultiDimensionalArrays false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.476
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.477
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.477
+!MESSAGE buffering callback sts4.classpath.OdTHPrqF Lab - Switch false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.477
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.478
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.478
+!MESSAGE buffering callback sts4.classpath.OdTHPrqF Lab - While false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.478
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.479
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.480
+!MESSAGE buffering callback sts4.classpath.OdTHPrqF Lab-Datatypes false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.480
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.481
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.481
+!MESSAGE buffering callback sts4.classpath.OdTHPrqF Lab-ForLoops false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.482
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.482
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.483
+!MESSAGE buffering callback sts4.classpath.OdTHPrqF Lab-NestedLoops false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.483
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.483
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.484
+!MESSAGE buffering callback sts4.classpath.OdTHPrqF Lab-Overloading false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.484
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.485
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.485
+!MESSAGE buffering callback sts4.classpath.OdTHPrqF Lab-StringConcatenation false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.485
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.486
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.486
+!MESSAGE buffering callback sts4.classpath.OdTHPrqF NameConsole false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.486
+!MESSAGE executing callback sts4.classpath.OdTHPrqF 20 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-17 13:14:50.789
+!MESSAGE executing callback sts4.classpath.OdTHPrqF SUCCESS [done]
+
+!ENTRY org.eclipse.core.resources 4 568 2021-07-17 13:19:25.531
+!MESSAGE Could not write metadata for '/.org.eclipse.egit.core.cmp'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\jdlov\OneDrive\Desktop\Revature\Labs\.metadata\.plugins\org.eclipse.core.resources\.projects\.org.eclipse.egit.core.cmp\.markers.snap (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:291)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:234)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:155)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:48)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:44)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1765)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1846)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1202)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 568 2021-07-17 13:24:49.320
+!MESSAGE Could not write metadata for '/.org.eclipse.egit.core.cmp'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\jdlov\OneDrive\Desktop\Revature\Labs\.metadata\.plugins\org.eclipse.core.resources\.projects\.org.eclipse.egit.core.cmp\.markers.snap (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:291)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:234)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:155)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:48)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:44)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1765)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1846)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1202)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
