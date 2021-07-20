@@ -1,5 +1,5 @@
 package fixtures;
 
-public class Fixture {
+public abstract class Fixture {
 
 }
