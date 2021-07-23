@@ -24,14 +24,13 @@ public class Main {
 		player.setCurrentRoom(roomManager.getStartingRoom());
 
 		while (running) {
+			System.out.println();
 			printRoom(player);
 			printShortDescription(player);
 			printLongDescription(player);
 			System.out.println();
-			System.out.println("Interact: ");
-			System.out.println();
+			System.out.println("Items: ");
 			printItem(player);
-			printItemLongDescription(player);
 			System.out.println();
 			printExits(player);
 
@@ -69,12 +68,18 @@ public class Main {
 		}
 	}
 	
+	public static void printItemShortDescription(Player player) {
+		for(int i = 0; i < player.getCurrentRoom().getItems().size(); i++) {
+			System.out.println(player.getCurrentRoom().getItems().get(i).getShortDescription());
+		}
+	}
+
 	public static void printItemLongDescription(Player player) {
 		for(int i = 0; i < player.getCurrentRoom().getItems().size(); i++) {
 			System.out.println(player.getCurrentRoom().getItems().get(i).getLongDescription());
 		}
 	}
-
+	
 	public static void printLongDescription(Player player) {
 		System.out.println(player.getCurrentRoom().getLongDescription());
 	}

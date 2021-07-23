@@ -28,18 +28,22 @@ public class Input extends Main {
 				switch(details) {
 				case "north":
 					System.out.println("Going north");
+					System.out.println();
 					player.setCurrentRoom(player.getCurrentRoom().getExit(details));
 					break;
 				case "east":
 					System.out.println("Going east");
+					System.out.println();
 					player.setCurrentRoom(player.getCurrentRoom().getExit(details));
 					break;
 				case "south":
 					System.out.println("going south");
+					System.out.println();
 					player.setCurrentRoom(player.getCurrentRoom().getExit(details));
 					break;
 				case "west":
 					System.out.println("going west");
+					System.out.println();
 					player.setCurrentRoom(player.getCurrentRoom().getExit(details));
 					break;
 				}
@@ -48,27 +52,33 @@ public class Input extends Main {
 				switch(details) {
 				case "north":
 					System.out.println("Going north");
+					System.out.println();
 					player.setCurrentRoom(player.getCurrentRoom().getExit(details));
 					break;
 				case "east":
 					System.out.println("Going east");
+					System.out.println();
 					player.setCurrentRoom(player.getCurrentRoom().getExit(details));
 					break;
 				case "south":
 					System.out.println("going south");
+					System.out.println();
 					player.setCurrentRoom(player.getCurrentRoom().getExit(details));
 					break;
 				case "west":
 					System.out.println("going west");
+					System.out.println();
 					player.setCurrentRoom(player.getCurrentRoom().getExit(details));
 					break;
 				}
 				break;
 			}
 		} else if (action == "interact") {
-			System.out.println("Interacted with a thing");
+			System.out.println();
+			printItemShortDescription(player);
+			printItemLongDescription(player);
 		} else if (action == "quit") {
-			System.out.println("Terminated, not really. . . ");
+			endGame();
 		} else {
 			System.out.println("Didn't quite catch that");
 			System.out.println();
@@ -82,7 +92,4 @@ public class Input extends Main {
 		
 	}
 	
-	public static void objectInteraction(String details, Player player) {
-		
-	}
 }
