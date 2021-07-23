@@ -1,17 +1,43 @@
 package fixtures;
 
-public class Room {
-	
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
+public class Room extends Fixture {
+
+	private ArrayList<Item> items = new ArrayList<Item>();
+
+	private Map<String, Room> exits = new HashMap<>();
+
 	public Room(String name, String shortDescription, String longDescription) {
+
 		super(name, shortDescription, longDescription);
 	}
-	
-	public Room [] getExits() {
-		
+
+	public Map<String, Room> getExits() {
+		return exits;
 	}
-	
+
+	public void setExits(String direction, Room room) {
+		exits.put(direction, room);
+	}
+
 	public Room getExit(String direction) {
-		
+		for (String inputDirection : exits.keySet()) {
+			if (inputDirection.startsWith(direction.toLowerCase().intern())) {
+				return exits.get(inputDirection);
+			}
+		}
+		return null;
+	}
+
+	public ArrayList<Item> getItems() {
+		return items;
+	}
+
+	public void setItems(Item item) {
+		items.add(item);
 	}
 
 }
