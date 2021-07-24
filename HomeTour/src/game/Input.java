@@ -1,31 +1,31 @@
 package game;
 
 public class Input extends Main {
-	
+
 	public static String[] collectInput() {
 //		scanner object will go here to collect the input
-		
+
 		System.out.println(":::Which way would you like to go?:::");
 		String input = userInput.nextLine();
 		String[] inputCommands = input.split(" ");
-        return inputCommands;
+		return inputCommands;
 	}
-	
-	public static void parse (String[] inputCommand, Player player) {
+
+	public static void parse(String[] inputCommand, Player player) {
 //		navigating through the house with the use of switch statements 
-		
+
 		String action = inputCommand[0].toLowerCase().intern();
-		
+
 		String details = "";
-		
+
 		if (inputCommand.length > 1) {
 			details = inputCommand[1].toLowerCase().intern();
 		}
-		
+
 		if (action == "go" | action == "move") {
 			switch (action) {
 			case "go":
-				switch(details) {
+				switch (details) {
 				case "north":
 					System.out.println("Going north");
 					System.out.println();
@@ -49,7 +49,7 @@ public class Input extends Main {
 				}
 				break;
 			case "move":
-				switch(details) {
+				switch (details) {
 				case "north":
 					System.out.println("Going north");
 					System.out.println();
@@ -85,11 +85,6 @@ public class Input extends Main {
 			System.out.println("Please try again");
 			System.out.println();
 		}
-		
 	}
 
-	public static void movePlayer(String details, Player player) {
-		
-	}
-	
 }

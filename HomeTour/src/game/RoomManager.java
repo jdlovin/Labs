@@ -69,25 +69,35 @@ public class RoomManager {
 		rooms.add(masterBathRoom);
 
 		courtYard.setExits("south", foyer);
+		
 		foyer.setExits("north", courtYard);
 		foyer.setExits("east", livingRoom);
 		foyer.setExits("south", kitchen);
 		foyer.setExits("west", bathRoom);
+		
 		bathRoom.setExits("east", foyer);
+		
 		garage.setExits("east", kitchen);
+		
 		kitchen.setExits("west", garage);
 		kitchen.setExits("north", foyer);
 		kitchen.setExits("east", diningRoom);
+		
 		diningRoom.setExits("south", bedRoom);
 		diningRoom.setExits("north", livingRoom);
 		diningRoom.setExits("west", kitchen);
+		
 		livingRoom.setExits("west", foyer);
 		livingRoom.setExits("south", diningRoom);
+		
 		bedRoom.setExits("north", diningRoom);
 		bedRoom.setExits("east", closet);
 		bedRoom.setExits("south", masterBathRoom);
+		
 		closet.setExits("west", bedRoom);
+		
 		masterBathRoom.setExits("north", bedRoom);
+		
 		setStartingRoom(courtYard);
 	}
 
